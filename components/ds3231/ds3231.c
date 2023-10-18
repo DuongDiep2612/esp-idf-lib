@@ -41,7 +41,7 @@
 #include <esp_idf_lib_helpers.h>
 #include "ds3231.h"
 
-#define I2C_FREQ_HZ 400000
+#define I2C_FREQ_HZ 1000
 
 #define DS3231_STAT_OSCILLATOR 0x80
 #define DS3231_STAT_32KHZ      0x08
